@@ -1,4 +1,4 @@
-#include "main.h"
+3include "main.h"
 
 /**
  * _length - checks the length of a string
@@ -44,7 +44,7 @@ int checkp(int i, int lg, char *s)
  * @s: is the string
  * Return: return 1 if the string is a palindrome
  */
-int is_palindrome(char *s);
+int is_palindrome(char *s)
 {
 	return (checkp(0, _length(s) - 1, s));
 }
