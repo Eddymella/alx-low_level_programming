@@ -3,8 +3,8 @@
 
 /**
  * main - program that multiplies two numbers
- * argc: This is the argument count
- * argv: This is the argumrnt vector
+ * @argc: This is the argument count
+ * @argv: This is the argumrnt vector
  *
  * Return: 0;
  */
@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
 	}
 	for (index = 1; index < argc; index++)
 	{
-		multiplication = multiplication * atoi(argv[index])
+		multiplication = multiplication * atoi(argv[index]);
 	}
 	printf("%d\n", multiplication);
 	return (0);
